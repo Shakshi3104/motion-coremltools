@@ -1,6 +1,6 @@
 # motion-coremltools
 
-motion-coremltools is the wrapper tool for neural networks with motion sensor data.
+motion-coremltools is the wrapper tool for converting neural networks trained with motion sensor data.
 
 ## Usage
 The usage is the same as coremltools' Unified Conversation API. Currently, only tensorflow.keras.Model is supported.

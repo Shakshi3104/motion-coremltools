@@ -1,6 +1,6 @@
 # motion-coremltools
 
-motion-coremltools is the wrapper tool for converting neural networks trained with motion sensor data.
+motion-coremltools (**coremotiontools**) is the wrapper tool for converting neural networks trained with motion sensor data.
 
 ## Usage
 The usage is the same as coremltools' Unified Conversation API. Currently, only tensorflow.keras.Model is supported. Also, only **1-demensional** CNNs are supported.
@@ -47,9 +47,14 @@ let output = try! model.prediction(input: ActivityClassifierInput(input: mlArray
 
 See [here](https://github.com/Shakshi3104/footway/blob/master/SidewalkSurfaceTypeClassification/SidewalkSurfaceTypeClassifier.swift) for more detailed usages.
 
+## Install
+Supported pip install
 
+```bash
+pip install git+https://github.com/Shakshi3104/motion-coremltools.git
+```
 
 ## Requirements
 
 - `coremltools 4.1`
-- `tensorflow 2.1`
+- `tensorflow >=2.1`
